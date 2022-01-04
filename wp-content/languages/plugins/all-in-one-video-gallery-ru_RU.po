@@ -1,0 +1,1729 @@
+# Translation of Plugins - All-in-One Video Gallery - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - All-in-One Video Gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-24 10:25:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - All-in-One Video Gallery - Stable (latest release)\n"
+
+#: admin/settings.php:652
+msgid "Follow <a href=\"%s\" target=\"_blank\">this guide</a> to get your own access token."
+msgstr "Следуйте <a href=\"%s\" target=\"_blank\">этому руководству</a>, чтобы получить собственный токен доступа."
+
+#: admin/settings.php:651
+msgid "Vimeo Access Token"
+msgstr "Токен доступа Vimeo"
+
+#: includes/functions.php:1288
+msgid "Exclude Category ID(s)"
+msgstr "Исключить ID(s) категорий"
+
+#: admin/settings.php:399 includes/functions.php:1154
+msgid "Video Title"
+msgstr "Название видео"
+
+#: includes/functions.php:1224
+msgid "More Button"
+msgstr "Кнопка Ещё"
+
+#: admin/partials/video-sources.php:139 admin/partials/video-sources.php:143
+#: admin/partials/video-sources.php:162 admin/partials/video-sources.php:166
+msgid "deprecated"
+msgstr "устаревшие"
+
+#: admin/partials/video-sources.php:131
+msgid "[+] Add More Quality Levels"
+msgstr "[+] Добавить новые уровни качества"
+
+#: admin/partials/video-sources.php:55
+msgid "This will be the default quality level for this video"
+msgstr "Это будет уровень качества по умолчанию для данного видео"
+
+#: admin/partials/video-sources.php:54 admin/partials/video-sources.php:95
+#: admin/partials/video-sources.php:318
+msgid "Select a Quality Level"
+msgstr "Выбрать уровень качества"
+
+#: admin/settings.php:443
+msgid "Number of categories to show per page. Use a value of \"0\" to show all categories."
+msgstr "Количество категорий для отображения на странице. Используйте значение «0», чтобы показать все категории."
+
+#: admin/settings.php:394 includes/functions.php:1140
+msgid "Show / Hide (Thumbnails)"
+msgstr "Показать / Скрыть (миниатюры)"
+
+#: admin/settings.php:383 includes/functions.php:1129
+msgid "Image Position (Thumbnails)"
+msgstr "Позиция изображения (миниатюры)"
+
+#: admin/settings.php:313
+msgid "Enter the video quality levels, one per line."
+msgstr "Введите уровни качества видео по одному в каждой строке."
+
+#: admin/settings.php:312
+msgid "Quality Levels"
+msgstr "Уровни качества"
+
+#: admin/admin.php:538
+msgid "Sorry, there is already a video with this quality level."
+msgstr "Видео с таким уровнем качества уже есть."
+
+#: admin/settings.php:304 blocks/blocks.php:125 includes/functions.php:985
+#: widgets/forms/video.php:131
+msgid "Speed Control"
+msgstr "Регулировка скорости"
+
+#: admin/settings.php:303 blocks/blocks.php:124 includes/functions.php:978
+#: widgets/forms/video.php:124
+msgid "Quality Selector"
+msgstr "Выбор качества"
+
+#: includes/functions.php:1038
+msgid "Select Tags"
+msgstr "Выбрать метки"
+
+#: includes/functions.php:294
+msgid "Video Tag"
+msgstr "Метка видео"
+
+#: blocks/blocks.php:101 includes/functions.php:1416
+#: widgets/forms/search.php:52
+msgid "Search By Tags"
+msgstr "Поиск по меткам"
+
+#: blocks/blocks.php:100 includes/functions.php:1402
+#: widgets/forms/search.php:38
+msgid "Search By Video Title, Description"
+msgstr "Поиск по названию видео, описанию"
+
+#: public/search.php:69 widgets/search.php:87
+msgid "Search form disabled."
+msgstr "Форма поиска отключена."
+
+#: public/templates/search-form-template-horizontal.php:53
+#: public/templates/search-form-template-horizontal.php:55
+#: public/templates/search-form-template-vertical.php:53
+#: public/templates/search-form-template-vertical.php:55
+msgid "Search by tags"
+msgstr "Поиск по меткам"
+
+#: public/public.php:247
+msgid "No tags found"
+msgstr "Метки не найдены"
+
+#: admin/settings.php:668
+msgid "This is the page where the videos from a particular tag is displayed. The [aiovg_tag] short code must be on this page."
+msgstr "Это страница, на которой отображаются видео из определенного тега. На этой странице должен находиться шорткод [aiovg_tag]."
+
+#: admin/settings.php:667
+msgid "Single Tag Page"
+msgstr "Страница отдельной метки"
+
+#: admin/settings.php:604 includes/functions.php:2077
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: admin/settings.php:406 includes/functions.php:1203
+msgid "Video Excerpt (Short Description)"
+msgstr "Отрывок из видео (краткое описание)"
+
+#: admin/settings.php:401 admin/settings.php:508 includes/functions.php:1168
+msgid "Tag Name(s)"
+msgstr "Название(я) метки"
+
+#: admin/settings.php:400 admin/settings.php:507 includes/functions.php:1161
+msgid "Category Name(s)"
+msgstr "Название(я) категории"
+
+#: admin/tags.php:83
+msgid "Tags list navigation"
+msgstr "Навигация по списку меток"
+
+#: admin/tags.php:82
+msgid "Tags list"
+msgstr "Список меток"
+
+#: admin/tags.php:81
+msgid "No tags"
+msgstr "Нет меток"
+
+#: admin/tags.php:79
+msgid "Search Tags"
+msgstr "Поиск меток"
+
+#: admin/tags.php:78
+msgid "Popular Tags"
+msgstr "Популярные метки"
+
+#: admin/tags.php:76
+msgid "Add or remove tags"
+msgstr "Добавить или удалить метки"
+
+#: admin/tags.php:75
+msgid "Separate tags with commas"
+msgstr "Отделяйте метки запятыми"
+
+#: admin/tags.php:74
+msgid "View Tag"
+msgstr "Просмотреть метку"
+
+#: admin/tags.php:73
+msgid "Update Tag"
+msgstr "Обновить метку"
+
+#: admin/tags.php:72
+msgid "Edit Tag"
+msgstr "Изменить метку"
+
+#: admin/tags.php:71
+msgid "Add New Tag"
+msgstr "Добавить новую метку"
+
+#: admin/tags.php:70
+msgid "New Tag Name"
+msgstr "Новое название тега"
+
+#: admin/tags.php:67
+msgid "All Tags"
+msgstr "Все метки"
+
+#: admin/tags.php:65
+msgctxt "Taxonomy Singular Name"
+msgid "Tag"
+msgstr "Метка"
+
+#: admin/tags.php:64
+msgctxt "Taxonomy General Name"
+msgid "Video Tags"
+msgstr "Метки видео"
+
+#: admin/tags.php:33 admin/tags.php:66
+msgid "Video Tags"
+msgstr "Метки видео"
+
+#: admin/tags.php:32
+msgid "All-in-One Video Gallery - Tags"
+msgstr "All-in-One Video Gallery - Метки"
+
+#: public/templates/single-video.php:29
+#: public/templates/video-thumbnail-image-left.php:44
+#: public/templates/video-thumbnail.php:40
+msgid "on %s"
+msgstr "on %s"
+
+#: admin/settings.php:572 includes/functions.php:1217
+msgid "Pagination"
+msgstr "Разбивка на страницы"
+
+#: admin/settings.php:528
+msgid "Enter the number of columns you like to have in the related videos section."
+msgstr "Введите желаемое количество столбцов в разделе похожих видео."
+
+#: admin/settings.php:619
+msgid "The Twitter @username the player card should be attributed to. Required for sharing videos in Twitter."
+msgstr "Твиттер @username, которому должна соответствовать карта проигрывателя. Требуется для публикации видео в Twitter."
+
+#: admin/settings.php:618
+msgid "Twitter Username"
+msgstr "Имя пользователя Twitter"
+
+#: admin/settings.php:612
+msgid "Check this option to enable Facebook Open Graph meta tags and Twitter cards on the single video pages"
+msgstr "Установите этот флажок, чтобы включить метатеги Facebook Open Graph и карточки Twitter на отдельных страницах видео"
+
+#: admin/settings.php:611
+msgid "Open Graph Tags"
+msgstr "Метки Open Graph"
+
+#: admin/settings.php:596
+msgid "Share Buttons"
+msgstr "Кнопки Поделиться"
+
+#: admin/settings.php:225
+msgid "Iframe"
+msgstr "Iframe"
+
+#: admin/settings.php:224
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: admin/settings.php:220
+msgid "Player Type"
+msgstr "Тип проигрывателя"
+
+#: admin/settings.php:173
+msgid "Misc Settings"
+msgstr "Прочие настройки"
+
+#: admin/settings.php:159
+msgid "Social Sharing"
+msgstr "Социальный обмен"
+
+#: admin/settings.php:100
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/partials/video-sources.php:252
+msgid "This field allows \"iframe\" and \"script\" tags. So, make sure the code you're adding with this field is harmless to your website."
+msgstr "Это поле позволяет использовать метки \"iframe\" и \"script\". Поэтому убедитесь, что код, который вы добавляете с помощью этого поля, безвреден для вашего сайта."
+
+#: admin/partials/video-sources.php:251
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: public/templates/category-thumbnail.php:40
+msgid "%s video"
+msgstr "%s видео"
+
+#: admin/admin.php:469
+msgid "During activation, our plugin adds few <a href=\"%s\" target=\"_blank\">pages</a> dynamically on your website that are required for the internal logic of the plugin. We found some of those pages are missing, misconfigured or having a wrong shortcode."
+msgstr "Во время активации наш плагин добавляет несколько <a href=\"%s\" target=\"_blank\">страниц</a> динамически на ваш сайт, которые необходимы для внутренней логики плагина. Мы обнаружили, что некоторые из этих страниц отсутствуют, неправильно настроены или имеют неправильный шорткод."
+
+#: admin/admin.php:467
+msgid "Pages Misconfigured"
+msgstr "Неправильно настроенные страницы"
+
+#: admin/admin.php:244
+msgid "Issues Found"
+msgstr "Найденные проблемы"
+
+#: admin/admin.php:235
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/admin.php:220
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: admin/admin.php:219
+msgid "All-in-One Video Gallery - Dashboard"
+msgstr "All-in-One Video Gallery - Панель управления"
+
+#: admin/admin.php:537
+msgid "Please select at least one issue."
+msgstr "Выберите хотя бы одну проблему."
+
+#: admin/categories.php:32
+msgid "All-in-One Video Gallery - Categories"
+msgstr "All-in-One Video Gallery - Категории"
+
+#: admin/settings.php:270
+msgid "Check this to turn OFF the audio output of the video by default"
+msgstr "Установите этот флажок, чтобы по умолчанию выключить аудиовыход видео"
+
+#: admin/settings.php:131
+msgid "Categories Layout"
+msgstr "Макет категорий"
+
+#: admin/settings.php:124
+msgid "Videos Layout"
+msgstr "Макет видео"
+
+#: admin/settings.php:59
+msgid "All-in-One Video Gallery - Settings"
+msgstr "All-in-One Video Gallery - Настройки"
+
+#: admin/partials/dashboard.php:20
+msgid "Add responsive video galleries anywhere on your website – no coding required. Includes HTML5 Player, Thumbnail Grid, Slider, Popup & more."
+msgstr "Добавьте адаптивные видеогалереи в любом месте вашего веб-сайта - кодирование не требуется. Включает в себя проигрыватель HTML5, сетку эскизов, слайдер, всплывающее окно и и многое другое."
+
+#: admin/partials/issues.php:89
+msgid "You have no issues."
+msgstr "У вас нет проблем."
+
+#: admin/partials/issues.php:87
+msgid "You have no ignored issues."
+msgstr "У вас нет игнорируемых проблем."
+
+#: admin/admin.php:169 admin/partials/issues.php:78
+msgid "Apply Fix"
+msgstr "Применить исправление"
+
+#: admin/admin.php:182 admin/partials/issues.php:75
+msgid "Ignore"
+msgstr "Игнорировать"
+
+#: admin/partials/issues.php:56
+msgid "Description"
+msgstr "Описание"
+
+#: admin/partials/issues.php:55
+msgid "Issue"
+msgstr "Проблема"
+
+#: admin/partials/issues.php:26
+msgid "Issues ignored."
+msgstr "Проблемы игнорируются."
+
+#: admin/partials/issues.php:26
+msgid "Congrats! Issues solved."
+msgstr "Поздравляю! Проблемы решены."
+
+#: admin/partials/issues.php:14
+msgid "Ignored"
+msgstr "Игнорируется"
+
+#: admin/partials/issues.php:13
+msgid "Issues"
+msgstr "Проблемы"
+
+#: admin/partials/settings.php:28
+msgid "Plugin Settings"
+msgstr "Настройки плагина"
+
+#: admin/partials/shortcode-builder.php:425
+msgid "Congrats! copy the shortcode below and paste it in your POST/PAGE where you need the gallery,"
+msgstr "Поздравляем! Скопируйте приведенный ниже шорткод и вставьте его в ваш ЗАПИСЬ/СТРАНИЦА, где вам нужна галерея,"
+
+#: admin/partials/shortcode-builder.php:412
+msgid "No matter where you add the search form, but the search results will always be displayed in the <a href=\"%s\">Search Videos</a> page that is added by our plugin dynamically during the activation."
+msgstr "Независимо от того, где вы добавляете форму поиска, результаты поиска всегда будут отображаться на странице <a href=\"%s\">Поиск видеофайлов</a>, которая динамически добавляется нашим плагином во время активации."
+
+#: admin/partials/shortcode-builder.php:402
+msgid "Use the <a href=\"%s\">AIOVG - Search Form</a> widget in your website sidebars."
+msgstr "Используйте виджет <a href=\"%s\">AIOVG - Форма поиска</a> в области виджетов вашего сайта."
+
+#: admin/partials/shortcode-builder.php:392
+msgid "Use the <a href=\"%s\">AIOVG - Search Form</a> Gutenberg block in your POST/PAGE."
+msgstr "Используйте блок Gutenberg <a href=\"%s\">AIOVG - Форма поиска</a> в вашем ЗАПИСЬ/СТРАНИЦА."
+
+#: admin/partials/shortcode-builder.php:380
+msgid "You can use one of the following methods to add the videos search form in your website,"
+msgstr "Вы можете использовать один из следующих методов для добавления формы поиска видео на свой сайт,"
+
+#: admin/partials/shortcode-builder.php:376
+msgid "How to create video search functionality?"
+msgstr "Как создать функцию поиска видео?"
+
+#: admin/partials/shortcode-builder.php:367
+msgid "Use the <a href=\"%s\">AIOVG - Video Categories</a> widget in your website sidebars."
+msgstr "Используйте виджет <a href=\"%s\">AIOVG - Категории видео</a> в области виджетов вашего сайта."
+
+#: admin/partials/shortcode-builder.php:357
+msgid "Use the <a href=\"%s\">AIOVG - Video Categories</a> Gutenberg block in your POST/PAGE."
+msgstr "Используйте блок Gutenberg <a href=\"%s\">AIOVG - Категории видео</a> в вашем ЗАПИСЬ/СТРАНИЦА."
+
+#: admin/partials/shortcode-builder.php:345
+msgid "Then, use one of the following methods to show the video categories in your site front-end,"
+msgstr "Затем используйте один из следующих методов, чтобы отобразить категории видео в интерфейсе вашего сайта,"
+
+#: admin/partials/shortcode-builder.php:337
+msgid "<a href=\"%s\">Add Categories</a>"
+msgstr "<a href=\"%s\">Добавить категории</a>"
+
+#: admin/partials/shortcode-builder.php:330
+msgid "How to add/show video categories?"
+msgstr "Как добавить/показать категории видео?"
+
+#: admin/partials/shortcode-builder.php:321
+msgid "Use the <a href=\"%s\">AIOVG - Video Gallery</a> widget in your website sidebars."
+msgstr "Используйте виджет <a href=\"%s\">AIOVG - Видео галерея</a> в области виджетов вашего сайта."
+
+#: admin/partials/shortcode-builder.php:311
+msgid "Use the <a href=\"%s\">AIOVG - Video Gallery</a> Gutenberg block in your POST/PAGE."
+msgstr "Используйте блок Gutenberg<a href=\"%s\">AIOVG - Видео галерея</a> в вашем ЗАПИСЬ/СТРАНИЦА."
+
+#: admin/partials/shortcode-builder.php:299
+msgid "Then, use one of the following methods to build and show the gallery in your site front-end,"
+msgstr "Затем используйте один из следующих методов для создания и отображения галереи в интерфейсе вашего сайта,"
+
+#: admin/partials/shortcode-builder.php:291
+msgid "<a href=\"%s\">Add Videos</a>"
+msgstr "<a href=\"%s\">Добавить видеофайлы</a>"
+
+#: admin/partials/shortcode-builder.php:281
+msgid "Optional. <a href=\"%s\">Add Categories</a>"
+msgstr "Необязательно. <a href=\"%s\">Добавить категории</a>"
+
+#: admin/partials/shortcode-builder.php:274
+msgid "How to create/add a video gallery?"
+msgstr "Как создать/добавить видео галерею?"
+
+#: admin/partials/shortcode-builder.php:265
+msgid "Use the <a href=\"%s\">AIOVG - Video Player</a> widget in your website sidebars."
+msgstr "Используйте виджет <a href=\"%s\">AIOVG - Видео проигрыватель</a> в области виджетов вашего сайта."
+
+#: admin/partials/shortcode-builder.php:255
+msgid "Use the <a href=\"%s\">AIOVG - Video Player</a> Gutenberg block and add the video directly in your POST/PAGE."
+msgstr "Используйте блок Gutenberg<a href=\"%s\">AIOVG - Видео проигрыватель</a> и добавьте видео прямо в ЗАПИСЬ/СТРАНИЦА."
+
+#: admin/partials/shortcode-builder.php:245
+msgid "<a href=\"%s\">Add</a> your video using our \"Custom Post Type\" form, copy the shortcode, then add it in your POST/PAGE."
+msgstr "<a href=\"%s\">Добавьте</a> ваше видео с помощью нашей формы \"Custom Post Type\", скопируйте шорткод, затем добавьте его в ваш ЗАПИСЬ/СТРАНИЦА."
+
+#: admin/partials/shortcode-builder.php:238
+#: admin/partials/shortcode-builder.php:304
+#: admin/partials/shortcode-builder.php:350
+#: admin/partials/shortcode-builder.php:385
+msgid "Use the shortcode builder in this page to build your shortcode, then add it in your POST/PAGE."
+msgstr "Используйте конструктор шорткодов на этой странице, чтобы создать свой шорткод, а затем добавьте его в ЗАПИСЬ/СТРАНИЦА."
+
+#: admin/partials/shortcode-builder.php:233
+msgid "You can use one of the following methods,"
+msgstr "Вы можете использовать один из следующих методов,"
+
+#: admin/partials/shortcode-builder.php:229
+msgid "How to add a single video in my POST/PAGE?"
+msgstr "Как добавить одно видео в мою ЗАПИСЬ/СТРАНИЦУ?"
+
+#: admin/partials/shortcode-builder.php:218
+msgid "Generate Shortcode"
+msgstr "Сгенерировать шорткод"
+
+#: admin/partials/shortcode-builder.php:92
+msgid "No categories found. <a href=\"%s\">Add</a> your first category."
+msgstr "Категории не найдены. <a href=\"%s\">Добавьте</a> свою первую категорию."
+
+#: admin/partials/shortcode-builder.php:83
+msgid "No videos found. <a href=\"%s\">Add</a> your first video."
+msgstr "Видео не найдено. <a href=\"%s\">Добавьте</a> свое первое видео."
+
+#: admin/partials/shortcode-builder.php:50
+msgid "Select a shortcode type"
+msgstr "Выбрать тип шорткода"
+
+#: admin/partials/video-sources.php:79 admin/partials/video-sources.php:120
+#: admin/partials/video-sources.php:147 admin/partials/video-sources.php:170
+#: admin/partials/video-sources.php:269 admin/partials/video-sources.php:335
+msgid "Enter your direct file URL (OR) upload your file using the button here"
+msgstr "Введите прямой URL-адрес файла (ИЛИ), загрузите файл с помощью кнопки здесь"
+
+#: admin/partials/faq.php:28
+msgid "No Worries. We are just an email away from you. Please contact us <a href=\"%s\">here</a>."
+msgstr "Не стоит беспокоиться. Мы всего в одном электронном письме от вас. Свяжитесь с нами <a href=\"%s\"> здесь </a>."
+
+#: admin/partials/faq.php:25
+msgid "The plugin is not working for me. What should I do now?"
+msgstr "У меня не работает плагин, что делать?"
+
+#: admin/partials/faq.php:18
+msgid "Sure, this is the main reason we developed the shortcode builder. Simply generate your shortcode using the <a href=\"%s\">Shortcode Builder</a> and use it in your page builder."
+msgstr "Конечно, это основная причина, по которой мы разработали конструктор шорткодов. Просто создайте свой шорткод с помощью <a href=\"%s\">Конструктор шорткодов</a> и используйте его в конструкторе страниц."
+
+#: admin/partials/faq.php:15
+msgid "Does the plugin support third-party page builders like \"Elementor\", \"WPBakery\", \"Divi\", etc.?"
+msgstr "Поддерживает ли плагин сторонние конструкторы страниц, такие как \"Elementor\", \"WPBakery\", \"Divi\" и т.д.?"
+
+#: admin/settings.php:605 includes/functions.php:2091
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/functions.php:1281
+msgid "Include Category ID(s)"
+msgstr "Включить ID(s) категорий"
+
+#: includes/functions.php:1108
+msgid "Gallery"
+msgstr "Галерея"
+
+#: includes/functions.php:1045
+msgid "Include Video ID(s)"
+msgstr "Включить ID(s) видео"
+
+#: admin/settings.php:269 blocks/blocks.php:114 includes/functions.php:931
+#: widgets/forms/video.php:80
+msgid "Muted"
+msgstr "Беззвучно"
+
+#: includes/functions.php:862 includes/functions.php:897
+msgid "Enter your direct file URL in the textbox above (OR) upload your file using the \"Upload File\" link."
+msgstr "Введите прямой URL-адрес файла в текстовое поле выше (ИЛИ). Загрузите файл, используя ссылку «Загрузить файл»."
+
+#: admin/partials/video-sources.php:17 admin/partials/video-sources.php:21
+#: includes/functions.php:853
+msgid "Source Type"
+msgstr "Тип источника"
+
+#: includes/functions.php:659
+msgid "No Categories found."
+msgstr "Категории не найдены."
+
+#: includes/functions.php:656
+msgid "No Videos found."
+msgstr "Не найдено видео."
+
+#: public/templates/search-form-template-horizontal.php:26
+#: public/templates/search-form-template-vertical.php:26
+msgid "Search by keyword"
+msgstr "Поиск по ключевому слову"
+
+#. Description of the plugin
+msgid "No coding required. A Responsive & Lightweight video gallery plugin. HTML5 Player, Categories, Visual Builder (Gutenberg), Search Form, Comments, Social Sharing and everything you will need to build a YouTube/Vimeo like video sharing website."
+msgstr "Не требует кодирования. Адаптивный и легкий плагин для видеогалереи. HTML5 плеер, категории, визуальный конструктор (Gutenberg), форма поиска, комментарии, социальный обмен и все, что вам нужно для создания сайта YouTube/Vimeo, как веб-сайт для обмена видео."
+
+#: admin/partials/video-sources.php:190 admin/partials/video-sources.php:204
+#: admin/partials/video-sources.php:218 admin/partials/video-sources.php:232
+#: includes/functions.php:869 includes/functions.php:876
+#: includes/functions.php:883 includes/functions.php:890
+msgid "Example"
+msgstr "Пример"
+
+#: admin/settings.php:645
+msgid "Check this box to also delete the associated media files when a video post or a video category is deleted"
+msgstr "Установите этот флажок, чтобы удалить связанные медиафайлы при удалении публикации видео или категории видео"
+
+#: admin/settings.php:644
+msgid "Delete media files?"
+msgstr "Удалить медиафайлы?"
+
+#: admin/settings.php:638
+msgid "Check this box to delete all of the plugin data (database stored content) when uninstalled"
+msgstr "Установите этот флажок, чтобы удалить все данные плагина (содержимое, сохраненное в базе данных) при удалении"
+
+#: admin/partials/dashboard.php:28
+msgid "Version %s"
+msgstr "Версия %s"
+
+#: admin/videos.php:32
+msgid "All-in-One Video Gallery - Videos"
+msgstr "All-in-One Video Gallery - Видеофайлы"
+
+#: blocks/blocks.php:93
+msgid "Display a Video gallery."
+msgstr "Отображение Видео галереи."
+
+#: includes/functions.php:1528
+msgid "Classic"
+msgstr "Классический"
+
+#: includes/functions.php:1238 widgets/forms/categories.php:139
+msgid "More Button Link"
+msgstr "Ссылка кнопки Ещё"
+
+#: includes/functions.php:1231 widgets/forms/categories.php:134
+msgid "More Button Label"
+msgstr "Ярлык кнопки Ещё"
+
+#: widgets/forms/categories.php:129
+msgid "Show More Button"
+msgstr "Показывать кнопку Еще"
+
+#: includes/functions.php:1052
+msgid "Exclude Video ID(s)"
+msgstr "Исключить ID(s) видео"
+
+#: blocks/blocks.php:118
+msgid "Remove Poster Image"
+msgstr "Изображение плаката"
+
+#: blocks/blocks.php:117
+msgid "Replace Image"
+msgstr "Заменить изображение"
+
+#: blocks/blocks.php:116
+msgid "Select Poster Image"
+msgstr "Выбрать изображение плаката"
+
+#: blocks/blocks.php:115
+msgid "Poster Image"
+msgstr "Плакатное изображение"
+
+#: blocks/blocks.php:106
+msgid "Edit video"
+msgstr "Измениться видео"
+
+#: blocks/blocks.php:105
+msgid "a video"
+msgstr "видео"
+
+#: blocks/blocks.php:104
+msgid "Add MP4, WebM, OGV, YouTube, Vimeo, Dailymotion, Facebook, etc."
+msgstr "Добавить MP4, WebM, OGV, YouTube, Vimeo, Dailymotion, Facebook и т.д."
+
+#: blocks/blocks.php:103 widgets/video.php:43
+msgid "Display a video player."
+msgstr "Отображение видео проигрывателя."
+
+#: blocks/blocks.php:95 widgets/search.php:46
+msgid "AIOVG - Search Form"
+msgstr "AIOVG - Форма поиска"
+
+#: blocks/blocks.php:94
+msgid "Selected Color"
+msgstr "Выбранный цвет"
+
+#: blocks/blocks.php:72 widgets/categories.php:75
+msgid "Display a list of video categories."
+msgstr "Отображение списка категорий видео."
+
+#: admin/settings.php:352 admin/settings.php:442 admin/settings.php:537
+#: blocks/blocks.php:78 includes/functions.php:1059 includes/functions.php:1312
+#: widgets/forms/categories.php:60
+msgid "Limit (per page)"
+msgstr "Ограничение (на страницу)"
+
+#: admin/settings.php:335 includes/functions.php:1024
+msgid "<a href=\"%s\" target=\"_blank\">Upgrade Pro</a> for more templates (Popup, Slider, etc.)"
+msgstr "<a href=\"%s\" target=\"_blank\"> Обновите Pro </a>, чтобы получить дополнительные шаблоны (всплывающие окна, слайдер и т. д.)"
+
+#: admin/settings.php:474
+msgid "Check this to show the child categories"
+msgstr "Установите этот флажок, чтобы отображать дочерние категории"
+
+#: admin/settings.php:449
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: admin/settings.php:342 admin/settings.php:432 admin/settings.php:527
+#: blocks/blocks.php:77 includes/functions.php:1119 includes/functions.php:1302
+#: widgets/forms/categories.php:55
+msgid "Columns"
+msgstr "Столбцы"
+
+#: admin/settings.php:426 blocks/blocks.php:76 includes/functions.php:1267
+#: widgets/forms/categories.php:25
+msgid "List"
+msgstr "Список"
+
+#: admin/settings.php:425 blocks/blocks.php:75 includes/functions.php:1266
+#: widgets/forms/categories.php:24
+msgid "Grid"
+msgstr "Сетка"
+
+#: admin/settings.php:320
+msgid "Enables native player controls on the selected source types. For example, uses YouTube Player for playing YouTube videos & Vimeo Player for playing Vimeo videos. Note that none of our custom player features will work on the selected sources."
+msgstr "Включает встроенные элементы управления плеером для выбранных типов источников. Например, используется YouTube Player для воспроизведения видео YouTube и Vimeo Player для воспроизведения видео Vimeo. Обратите внимание, что ни одна из наших пользовательских функций плеера не будет работать на выбранных источниках."
+
+#: admin/settings.php:319
+msgid "Use Native Controls"
+msgstr "Использовать собственные элементы управления"
+
+#: admin/settings.php:294 blocks/blocks.php:119 includes/functions.php:939
+#: widgets/forms/video.php:84
+msgid "Player Controls"
+msgstr "Управление воспроизведением"
+
+#: admin/settings.php:765
+msgid "Text that is shown when a user right-clicks the player with the mouse."
+msgstr "Текст, который отображается, когда пользователь щелкает правой кнопкой мыши по проигрывателю."
+
+#: admin/settings.php:764
+msgid "Copyright Text"
+msgstr "Текст авторского права"
+
+#: admin/settings.php:758
+msgid "The distance, in pixels, of the logo from the edges of the display."
+msgstr "Расстояние, в пикселях, логотипа от краев дисплея."
+
+#: admin/settings.php:757
+msgid "Logo Margin"
+msgstr "Внешний отступ логотипа"
+
+#: admin/settings.php:751
+msgid "Bottom Right"
+msgstr "Справа внизу"
+
+#: admin/settings.php:750
+msgid "Bottom Left"
+msgstr "Слева внизу"
+
+#: admin/settings.php:749
+msgid "Top Right"
+msgstr "Вверху справа"
+
+#: admin/settings.php:748
+msgid "Top Left"
+msgstr "Вверху слева"
+
+#: admin/settings.php:745
+msgid "This sets the corner in which to display the watermark."
+msgstr "Здесь задается угол, в котором будет отображаться водяной знак."
+
+#: admin/settings.php:744
+msgid "Logo Position"
+msgstr "Расположение логотипа"
+
+#: admin/settings.php:738
+msgid "The URL to visit when the watermark image is clicked. Clicking a logo will have no affect unless this is configured."
+msgstr "URL-адрес, который будет открыт при нажатии на изображение водяного знака. Если этот параметр не настроен, щелчок по логотипу не будет иметь никакого эффекта."
+
+#: admin/settings.php:737
+msgid "Logo Link"
+msgstr "Ссылка на логотип"
+
+#: admin/settings.php:731
+msgid "Upload the image file of your logo. We recommend using the transparent PNG format with width below 100 pixels. If you do not enter any image, no logo will displayed."
+msgstr "Загрузите файл изображения вашего логотипа. Мы рекомендуем использовать прозрачный формат PNG шириной менее 100 пикселей. Если вы не введете изображение, логотип отображаться не будет."
+
+#: admin/settings.php:730
+msgid "Logo Image"
+msgstr "Изображение логотипа"
+
+#: admin/settings.php:724
+msgid "Check this option to show the watermark on the video."
+msgstr "Установите этот флажок, чтобы показать водяной знак на видео."
+
+#: admin/settings.php:723
+msgid "Show Logo"
+msgstr "Показать логотип"
+
+#: admin/settings.php:197
+msgid "Logo & Branding"
+msgstr "Логотип и фирменная символика"
+
+#. Plugin URI of the plugin
+msgid "https://plugins360.com/all-in-one-video-gallery/"
+msgstr "https://plugins360.com/all-in-one-video-gallery/"
+
+#: includes/functions.php:472
+msgid "Accept"
+msgstr "Принять"
+
+#: includes/functions.php:471
+msgid "<strong>Please accept cookies to play this video</strong>. By accepting you will be accessing content from a service provided by an external third party."
+msgstr "<strong>Пожалуйста, примите cookies для воспроизведения этого видео</strong>. Приняв их, вы получите доступ к содержимому сервиса, предоставляемого внешней третьей стороной."
+
+#: admin/settings.php:711
+msgid "GDPR - Consent Button Label"
+msgstr "GDPR - этикетка кнопки согласия"
+
+#: admin/settings.php:704
+msgid "GDPR - Consent Message"
+msgstr "GDPR - Сообщение о согласии"
+
+#: admin/settings.php:698
+msgid "Ask for consent before loading YouTube / Vimeo content."
+msgstr "Спросите согласия перед загрузкой контента YouTube / Vimeo."
+
+#: admin/settings.php:697
+msgid "GDPR - Show Consent"
+msgstr "GDPR - Показать согласие"
+
+#: admin/settings.php:188
+msgid "These options will help with privacy restrictions such as GDPR and the EU Cookie Law."
+msgstr "Эти опции помогут справиться с ограничениями конфиденциальности, такими как GDPR и Закон ЕС о файлах cookie."
+
+#: admin/settings.php:187
+msgid "Privacy Settings"
+msgstr "Настройки конфиденциальности"
+
+#: admin/settings.php:334 admin/settings.php:421 blocks/blocks.php:74
+#: includes/functions.php:1023 includes/functions.php:1262
+#: includes/functions.php:1391 widgets/forms/categories.php:20
+#: widgets/forms/search.php:20
+msgid "Select Template"
+msgstr "Выбрать шаблон"
+
+#: admin/partials/video-sources.php:210 admin/partials/video-sources.php:214
+#: admin/settings.php:325 includes/functions.php:882
+#: includes/functions.php:1509
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#. Author of the plugin
+msgid "Team Plugins360"
+msgstr "Команда Plugins360"
+
+#. Author URI of the plugin
+msgid "https://plugins360.com"
+msgstr "https://plugins360.com"
+
+#: admin/settings.php:388 includes/functions.php:1134
+msgid "Left"
+msgstr "Cлева"
+
+#: admin/settings.php:387 includes/functions.php:1133
+msgid "Top"
+msgstr "Сверху"
+
+#: widgets/videos.php:66
+msgid "Display a video gallery."
+msgstr "Отображение видео галереи."
+
+#: blocks/blocks.php:92 widgets/videos.php:63
+msgid "AIOVG - Video Gallery"
+msgstr "AIOVG - Видео галерея"
+
+#: includes/functions.php:1234 widgets/categories.php:67
+msgid "Show More"
+msgstr "Больше"
+
+#: blocks/blocks.php:102 widgets/video.php:46
+msgid "AIOVG - Video Player"
+msgstr "AIOVG - Видео проигрыватель"
+
+#: blocks/blocks.php:96 widgets/search.php:43
+msgid "A videos search form for your site."
+msgstr "Форма поиска видеофайлов для вашего сайта."
+
+#: admin/settings.php:494 blocks/blocks.php:90 includes/functions.php:1367
+#: widgets/forms/categories.php:122
+msgid "Hide Empty Categories"
+msgstr "Скрывать пустые категории"
+
+#: admin/settings.php:487 blocks/blocks.php:89 includes/functions.php:1360
+#: widgets/forms/categories.php:115
+msgid "Show Videos Count"
+msgstr "Показать количество видеофайлов"
+
+#: admin/settings.php:473 blocks/blocks.php:87 includes/functions.php:1346
+#: widgets/forms/categories.php:101
+msgid "Show Hierarchy"
+msgstr "Показать иерархию"
+
+#: blocks/blocks.php:71 widgets/categories.php:72
+msgid "AIOVG - Video Categories"
+msgstr "AIOVG - Категории видео"
+
+#: public/templates/single-video.php:38
+#: public/templates/video-thumbnail-image-left.php:53
+#: public/templates/video-thumbnail.php:49
+msgid "Posted"
+msgstr "Опубликовано"
+
+#: public/templates/videos-template-classic.php:18
+msgid "%d video(s) found"
+msgstr "Найдено %d видео"
+
+#: public/templates/single-video.php:85
+msgid "You may also like"
+msgstr "Вам также может понравиться"
+
+#: public/templates/single-video.php:70
+#: public/templates/video-thumbnail-image-left.php:110
+#: public/templates/video-thumbnail.php:106
+msgid "%d views"
+msgstr "%d просмотров"
+
+#: public/templates/single-video.php:34
+#: public/templates/video-thumbnail-image-left.php:49
+#: public/templates/video-thumbnail.php:45
+msgid "by"
+msgstr "от"
+
+#: public/templates/search-form-template-horizontal.php:76
+#: public/templates/search-form-template-vertical.php:76
+msgid "Search"
+msgstr "Поиск"
+
+#: public/templates/search-form-template-horizontal.php:34
+#: public/templates/search-form-template-vertical.php:34
+msgid "Select a Category"
+msgstr "Выбрать категорию"
+
+#: public/templates/category-thumbnail.php:38
+msgid "%s videos"
+msgstr "%s видеофайлы"
+
+#: public/public.php:970
+msgid "Showing results for \"%s\""
+msgstr "Показывать результаты для \"%s\""
+
+#: public/videos.php:134
+msgid "Sub Categories"
+msgstr "Подкатегории"
+
+#: includes/functions.php:2059
+msgid "Pin It"
+msgstr "Закрепить"
+
+#: includes/functions.php:1987
+msgid "Page %d of %d"
+msgstr "Страница %d из %d"
+
+#: includes/functions.php:1972
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/functions.php:1971
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/functions.php:306
+msgid "Player Embed"
+msgstr "Встраивание проигрывателя"
+
+#: includes/functions.php:302
+msgid "User Videos"
+msgstr "Видео пользователя"
+
+#: includes/functions.php:298 widgets/search.php:123
+msgid "Search Videos"
+msgstr "Поиск видеофайлов"
+
+#: includes/functions.php:290
+msgid "Video Category"
+msgstr "Категория видео"
+
+#: includes/functions.php:1514
+msgid "Iframe Embed Code"
+msgstr "Код для встраивания iframe"
+
+#: includes/functions.php:1506
+msgid "External URL"
+msgstr "Внешний URL"
+
+#: includes/functions.php:1506
+msgid "Self Hosted"
+msgstr "С вашего хостинга (Self Hosted)"
+
+#: admin/admin.php:234
+msgid "Shortcode Builder"
+msgstr "Конструктор шорткодов"
+
+#: admin/partials/video-tracks.php:54
+msgid "Add New File"
+msgstr "Добавить новый файл"
+
+#: admin/partials/video-tracks.php:46 admin/partials/video-tracks.php:82
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin/partials/shortcode-builder.php:154 admin/partials/video-sources.php:82
+#: admin/partials/video-sources.php:123 admin/partials/video-sources.php:150
+#: admin/partials/video-sources.php:173 admin/partials/video-sources.php:272
+#: admin/partials/video-sources.php:338 admin/partials/video-tracks.php:44
+#: admin/partials/video-tracks.php:80
+msgid "Upload File"
+msgstr "Загрузить файл"
+
+#: admin/partials/video-tracks.php:39 admin/partials/video-tracks.php:75
+msgid "en"
+msgstr "en"
+
+#: admin/partials/video-tracks.php:33 admin/partials/video-tracks.php:69
+msgid "English"
+msgstr "Английский"
+
+#: admin/partials/video-tracks.php:18 admin/partials/video-tracks.php:37
+#: admin/partials/video-tracks.php:73
+msgid "Srclang"
+msgstr "Srclang"
+
+#: admin/partials/video-tracks.php:17 admin/partials/video-tracks.php:31
+#: admin/partials/video-tracks.php:67
+msgid "Label"
+msgstr "Этикетка"
+
+#: admin/partials/video-tracks.php:16 admin/partials/video-tracks.php:25
+#: admin/partials/video-tracks.php:61
+msgid "File URL"
+msgstr "URL файла"
+
+#: admin/partials/video-submitbox.php:29
+msgid "Video Shortcode"
+msgstr "Шорткод видео"
+
+#: admin/partials/video-submitbox.php:19
+msgid "Mark as"
+msgstr "Отметить как"
+
+#: admin/partials/video-sources.php:245
+msgid "Enter your Iframe Embed Code"
+msgstr "Введите код для встраивания iframe"
+
+#: admin/partials/video-sources.php:238 admin/partials/video-sources.php:242
+msgid "Embed Code"
+msgstr "Код для вставки"
+
+#: admin/partials/video-sources.php:196 admin/partials/video-sources.php:200
+#: admin/settings.php:324 includes/functions.php:875
+#: includes/functions.php:1508
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: admin/partials/video-sources.php:182 admin/partials/video-sources.php:186
+#: admin/settings.php:323 includes/functions.php:868
+#: includes/functions.php:1507
+msgid "YouTube"
+msgstr "YouTube"
+
+#: admin/partials/video-sources.php:161 admin/partials/video-sources.php:166
+msgid "OGV"
+msgstr "OGV"
+
+#: admin/partials/video-sources.php:138 admin/partials/video-sources.php:143
+msgid "WebM"
+msgstr "WebM"
+
+#: admin/partials/category-image.php:20 admin/partials/category-image.php:37
+msgid "Remove Image"
+msgstr "Удалить изображение"
+
+#: admin/partials/category-image.php:19 admin/partials/category-image.php:36
+msgid "Add Image"
+msgstr "Добавить изображение"
+
+#: admin/partials/category-image.php:15 admin/partials/category-image.php:26
+#: admin/partials/video-sources.php:261 admin/partials/video-sources.php:265
+#: includes/functions.php:896
+msgid "Image"
+msgstr "Изображение"
+
+#. Plugin Name of the plugin
+#: admin/admin.php:208 admin/partials/dashboard.php:15 blocks/blocks.php:37
+msgid "All-in-One Video Gallery"
+msgstr "All-in-One Video Gallery"
+
+#: admin/partials/video-submitbox.php:20 admin/videos.php:482
+msgid "Featured"
+msgstr "Рекомендуемые"
+
+#: admin/partials/video-sources.php:296 admin/partials/video-sources.php:300
+#: admin/videos.php:481
+msgid "Views"
+msgstr "Просмотры"
+
+#: admin/videos.php:424
+msgid "Featured only"
+msgstr "Только избранные"
+
+#: admin/videos.php:171
+msgid "Video Sources"
+msgstr "Источники видео"
+
+#: admin/videos.php:103
+msgid "Video Description"
+msgstr "Описание видео"
+
+#: admin/videos.php:93
+msgid "Filter videos list"
+msgstr "Фильтр списка видеофайлов"
+
+#: admin/videos.php:92
+msgid "Videos list navigation"
+msgstr "Навигация по списку видео"
+
+#: admin/videos.php:91
+msgid "Videos list"
+msgstr "Список видео"
+
+#: admin/videos.php:90
+msgid "Uploaded to this video"
+msgstr "Загружено в это видео"
+
+#: admin/videos.php:89
+msgid "Insert into video"
+msgstr "Вставить в видео"
+
+#: admin/videos.php:88
+msgid "Use as featured image"
+msgstr "Использовать как изображение страницы"
+
+#: admin/videos.php:87
+msgid "Remove featured image"
+msgstr "Удалить изображение страницы"
+
+#: admin/videos.php:86
+msgid "Set featured image"
+msgstr "Установить изображение страницы"
+
+#: admin/videos.php:85
+msgid "Featured Image"
+msgstr "Изображение страницы"
+
+#: admin/videos.php:84
+msgid "Not found in Trash"
+msgstr "Не найдено в корзине"
+
+#: admin/videos.php:83
+msgid "Not found"
+msgstr "Не найдено"
+
+#: admin/videos.php:82
+msgid "Search Video"
+msgstr "Поиск видео"
+
+#: admin/videos.php:81
+msgid "View Videos"
+msgstr "Просмотр видеофайлов"
+
+#: admin/videos.php:80
+msgid "View Video"
+msgstr "Просмотр видео"
+
+#: admin/videos.php:79
+msgid "Update Video"
+msgstr "Обновить видео"
+
+#: admin/videos.php:78
+msgid "Edit Video"
+msgstr "Изменить видео"
+
+#: admin/videos.php:77
+msgid "New Video"
+msgstr "Новое видео"
+
+#: admin/videos.php:76
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: admin/videos.php:75
+msgid "Add New Video"
+msgstr "Добавить новое видео"
+
+#: admin/videos.php:33 admin/videos.php:74 admin/videos.php:423
+msgid "All Videos"
+msgstr "Все видеофайлы"
+
+#: admin/videos.php:73
+msgid "Parent Video:"
+msgstr "Родительское видео:"
+
+#: admin/videos.php:72
+msgid "Video Attributes"
+msgstr "Атрибуты видео"
+
+#: admin/videos.php:71
+msgid "Video Archives"
+msgstr "Архивы видео"
+
+#: admin/partials/video-sources.php:36 admin/partials/video-sources.php:41
+#: admin/videos.php:70 admin/videos.php:102 includes/functions.php:861
+msgid "Video"
+msgstr "Видео"
+
+#: admin/videos.php:68
+msgctxt "Post Type Singular Name"
+msgid "Video"
+msgstr "Видео"
+
+#: admin/videos.php:67
+msgctxt "Post Type General Name"
+msgid "Videos"
+msgstr "Видеофайлы"
+
+#: blocks/blocks.php:99 includes/functions.php:1409 widgets/forms/search.php:45
+msgid "Search By Categories"
+msgstr "Поиск по категориям"
+
+#: blocks/blocks.php:98 includes/functions.php:1396 widgets/forms/search.php:25
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: blocks/blocks.php:97 includes/functions.php:1395 widgets/forms/search.php:24
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: includes/functions.php:846 widgets/forms/video.php:20
+msgid "Select Video"
+msgstr "Выбрать видео"
+
+#: blocks/blocks.php:91 includes/functions.php:1374
+msgid "Show Pagination"
+msgstr "Показывать разбивку на страницы"
+
+#: includes/functions.php:1100
+msgid "Follow URL"
+msgstr "Перейти по URL"
+
+#: includes/functions.php:1093
+msgid "Featured Only"
+msgstr "Только избранные"
+
+#: admin/settings.php:372 admin/settings.php:462 admin/settings.php:557
+#: blocks/blocks.php:84 includes/functions.php:1082 includes/functions.php:1335
+#: widgets/forms/categories.php:83
+msgid "Order"
+msgstr "Сортировка"
+
+#: admin/settings.php:359 admin/settings.php:544 blocks/blocks.php:79
+#: includes/functions.php:1069 includes/functions.php:1322
+#: widgets/forms/categories.php:65
+msgid "Order By"
+msgstr "Сортировать по"
+
+#: includes/functions.php:1031
+msgid "Select Categories"
+msgstr "Выбрать категории"
+
+#: blocks/blocks.php:86 includes/functions.php:1087 includes/functions.php:1340
+#: widgets/forms/categories.php:88
+msgid "DESC"
+msgstr "По убыванию"
+
+#: blocks/blocks.php:85 includes/functions.php:1086 includes/functions.php:1339
+#: widgets/forms/categories.php:87
+msgid "ASC"
+msgstr "По возрастанию"
+
+#: admin/partials/shortcode-builder.php:162 blocks/blocks.php:73
+#: includes/functions.php:1273 widgets/forms/categories.php:36
+#: widgets/forms/categories.php:39
+msgid "Select Parent"
+msgstr "Выбрать родителя"
+
+#: includes/functions.php:1384
+msgid "Search Form"
+msgstr "Форма поиска"
+
+#: includes/functions.php:839
+msgid "Single Video"
+msgstr "Одиночное видео"
+
+#: admin/admin.php:209 admin/videos.php:69 includes/functions.php:1009
+#: widgets/videos.php:302
+msgid "Video Gallery"
+msgstr "Видео галерея"
+
+#: admin/categories.php:33 admin/categories.php:66 widgets/categories.php:54
+msgid "Video Categories"
+msgstr "Категории видео"
+
+#: widgets/forms/video.php:22
+msgid "Latest Video"
+msgstr "Последние видео"
+
+#: admin/settings.php:1090
+msgid "Select a page"
+msgstr "Выбрать страницу"
+
+#: admin/settings.php:1041
+msgid "Choose File"
+msgstr "Выбрать файл"
+
+#: admin/settings.php:689
+msgid "This is the page used to show the video player."
+msgstr "Это страница, используемая для отображения видео проигрывателя."
+
+#: admin/settings.php:688
+msgid "Player Page"
+msgstr "Страница проигрывателя"
+
+#: admin/settings.php:682
+msgid "This is the page where the videos from an user is displayed. The [aiovg_user_videos] short code must be on this page."
+msgstr "Это страница, на которой отображаются видео пользователя. На этой странице должен находиться шорткод [aiovg_user_videos]."
+
+#: admin/settings.php:681
+msgid "User Videos Page"
+msgstr "Страница видео пользователя"
+
+#: admin/settings.php:675
+msgid "This is the page where the search results are displayed. The [aiovg_search] short code must be on this page."
+msgstr "Это страница, на которой отображаются результаты поиска. На этой странице должен находиться шорткод [aiovg_search]."
+
+#: admin/settings.php:674
+msgid "Search Page"
+msgstr "Страница поиска"
+
+#: admin/settings.php:661
+msgid "This is the page where the videos from a particular category is displayed. The [aiovg_category] short code must be on this page."
+msgstr "Это страница, на которой отображаются видео из определенной категории. На этой странице должен находиться шорткод [aiovg_category]."
+
+#: admin/settings.php:660
+msgid "Single Category Page"
+msgstr "Страница отдельной категории"
+
+#: admin/settings.php:603
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: admin/settings.php:602 includes/functions.php:2051
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: admin/settings.php:601 includes/functions.php:2043
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/partials/video-sources.php:224 admin/partials/video-sources.php:228
+#: admin/settings.php:326 admin/settings.php:600 includes/functions.php:889
+#: includes/functions.php:1510 includes/functions.php:2035
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/settings.php:629
+msgid "Replaces the SLUG value used by custom post type \"aiovg_videos\"."
+msgstr "Заменяет значение SLUG (ярлык), используемое пользовательским типом сообщения \"aiovg_videos\"."
+
+#: admin/settings.php:628
+msgid "Video Detail Page"
+msgstr "Страница сведений о видео"
+
+#: admin/settings.php:519
+msgid "Allow visitors to comment videos using the standard WordPress comment form. Comments are public"
+msgstr "Разрешите посетителям комментировать видео, используя стандартную форму комментариев WordPress. Комментарии общедоступны"
+
+#: admin/settings.php:518
+msgid "Enable Comments"
+msgstr "Включить комментарии"
+
+#: admin/settings.php:145 admin/settings.php:512 includes/functions.php:1100
+msgid "Related Videos"
+msgstr "Похожие видео"
+
+#: admin/settings.php:413
+msgid "Number of characters."
+msgstr "Количество символов."
+
+#: admin/settings.php:412 includes/functions.php:1210
+msgid "Excerpt Length"
+msgstr "Длина отрывка (в словах)"
+
+#: admin/settings.php:405 includes/functions.php:1196
+msgid "Video Duration"
+msgstr "Продолжительность видео"
+
+#: admin/settings.php:403 admin/settings.php:510 includes/functions.php:1182
+msgid "Author Name"
+msgstr "Имя автора"
+
+#: admin/settings.php:402 admin/settings.php:509 includes/functions.php:1175
+msgid "Date Added"
+msgstr "Дата добавления"
+
+#: admin/settings.php:398 includes/functions.php:1147
+msgid "Videos Count"
+msgstr "Количество видео"
+
+#: admin/settings.php:503 admin/settings.php:568
+msgid "Show / Hide"
+msgstr "Показать/Скрыть"
+
+#: admin/settings.php:366 admin/settings.php:551 includes/functions.php:1076
+msgid "Random"
+msgstr "Случайный"
+
+#: admin/settings.php:365 admin/settings.php:404 admin/settings.php:511
+#: admin/settings.php:550 includes/functions.php:1075
+#: includes/functions.php:1189
+msgid "Views Count"
+msgstr "Количество просмотров"
+
+#: admin/settings.php:364 admin/settings.php:549 includes/functions.php:1074
+msgid "Date Posted"
+msgstr "Дата публикации"
+
+#: admin/settings.php:363 admin/settings.php:548 includes/functions.php:1016
+#: includes/functions.php:1073 includes/functions.php:1255
+#: widgets/forms/categories.php:15 widgets/forms/search.php:15
+#: widgets/forms/video.php:15
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/settings.php:353 admin/settings.php:538
+msgid "Number of videos to show per page. Use a value of \"0\" to show all videos."
+msgstr "Количество видео для показа на странице. Используйте значение «0», чтобы показать все видео."
+
+#: admin/settings.php:343
+msgid "Enter the number of columns you like to have in the gallery view."
+msgstr "Введите количество столбцов, которое вы хотите видеть в представлении галереи."
+
+#: admin/settings.php:495
+msgid "Check this to hide categories with no videos"
+msgstr "Установите этот флажок, чтобы скрыть категории без видео"
+
+#: admin/settings.php:488
+msgid "Check this to show the videos count next to the category name"
+msgstr "Установите этот флажок, чтобы рядом с названием категории отображалось количество видео"
+
+#: admin/settings.php:481
+msgid "Check this to show the categories description"
+msgstr "Установите этот флажок, чтобы отобразить описание категорий"
+
+#: admin/settings.php:480 blocks/blocks.php:88 includes/functions.php:1353
+#: widgets/forms/categories.php:108
+msgid "Show Description"
+msgstr "Показать описание"
+
+#: admin/settings.php:377 admin/settings.php:467 admin/settings.php:562
+msgid "Descending"
+msgstr "По убыванию"
+
+#: admin/settings.php:376 admin/settings.php:466 admin/settings.php:561
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: admin/settings.php:456 blocks/blocks.php:83 includes/functions.php:1329
+#: widgets/forms/categories.php:72
+msgid "Slug"
+msgstr "Ярлык"
+
+#: admin/settings.php:455 blocks/blocks.php:82 includes/functions.php:1328
+#: widgets/forms/categories.php:71
+msgid "Name"
+msgstr "Имя"
+
+#: admin/settings.php:454 blocks/blocks.php:81 includes/functions.php:1327
+#: widgets/forms/categories.php:70
+msgid "Count"
+msgstr "Количество"
+
+#: admin/settings.php:433
+msgid "Enter the number of columns you like to have in your categories page."
+msgstr "Введите количество столбцов, которое вы хотите иметь на странице категорий."
+
+#: admin/settings.php:588
+msgid "In percentage. 1 to 100. Calculate images's height using the ratio value entered."
+msgstr "В процентах. от 1 до 100. Вычислите высоту изображений, используя введенное значение отношения."
+
+#: admin/settings.php:581
+msgid "Always 100% of its enclosing container/html element."
+msgstr "Всегда 100% вложенного элемента container/html."
+
+#: admin/settings.php:306 blocks/blocks.php:127 includes/functions.php:999
+#: widgets/forms/video.php:145
+msgid "Fullscreen"
+msgstr "Во весь экран"
+
+#: admin/settings.php:305 blocks/blocks.php:126 includes/functions.php:992
+#: widgets/forms/video.php:138
+msgid "Volume"
+msgstr "Громкость"
+
+#: admin/settings.php:302 admin/videos.php:180 includes/functions.php:971
+#: widgets/forms/video.php:117
+msgid "Subtitles"
+msgstr "Субтитры"
+
+#: admin/partials/video-sources.php:282 admin/partials/video-sources.php:286
+#: admin/settings.php:301 blocks/blocks.php:123 includes/functions.php:964
+#: widgets/forms/video.php:110
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: admin/settings.php:300 blocks/blocks.php:122 includes/functions.php:957
+#: widgets/forms/video.php:103
+msgid "Progressbar"
+msgstr "Индикатор выполнения"
+
+#: admin/settings.php:299 blocks/blocks.php:121 includes/functions.php:950
+#: widgets/forms/video.php:96
+msgid "Current Time"
+msgstr "Текущее время"
+
+#: admin/settings.php:298 blocks/blocks.php:120 includes/functions.php:943
+#: widgets/forms/video.php:89
+msgid "Play / Pause"
+msgstr "Воспроизведение / Пауза"
+
+#: admin/partials/video-sources.php:63 admin/partials/video-sources.php:104
+#: admin/partials/video-sources.php:323 admin/settings.php:288
+msgid "None"
+msgstr "Отсутствует"
+
+#: admin/settings.php:287
+msgid "Metadata"
+msgstr "Метаданные"
+
+#: admin/settings.php:286
+msgid "Auto"
+msgstr "Авто"
+
+#: admin/settings.php:282
+msgid "\"None\" - the video should not be loaded when the page loads"
+msgstr "\"Отсутствует\" - видео не должно загружаться при загрузке страницы"
+
+#: admin/settings.php:281
+msgid "\"Metadata\" - only metadata should be loaded when the page loads"
+msgstr "\"Метаданные\" - при загрузке страницы должны загружаться только метаданные"
+
+#: admin/settings.php:280
+msgid "\"Auto\" - the video should be loaded entirely when the page loads"
+msgstr "\"Авто\" - видео должно загружаться полностью при загрузке страницы"
+
+#: admin/settings.php:279
+msgid "Specifies if and how the video should be loaded when the page loads."
+msgstr "Указывает, следует ли загружать видео при загрузке страницы и каким образом."
+
+#: admin/settings.php:276
+msgid "Preload"
+msgstr "Предварительная загрузка"
+
+#: admin/settings.php:263
+msgid "Check this, so that the video will start over again, every time it is finished"
+msgstr "Установите этот флажок, чтобы видео начиналось заново каждый раз, когда оно заканчивается"
+
+#: admin/settings.php:262 blocks/blocks.php:113 includes/functions.php:924
+#: widgets/forms/video.php:73
+msgid "Loop"
+msgstr "Зациклить"
+
+#: admin/settings.php:256
+msgid "Check this to start playing the video as soon as it is ready"
+msgstr "Установите этот флажок, чтобы начать воспроизведение видео, как только оно будет готово"
+
+#: admin/settings.php:255 blocks/blocks.php:112 includes/functions.php:917
+#: widgets/forms/video.php:66
+msgid "Autoplay"
+msgstr "Автовоспроизведение"
+
+#: admin/settings.php:248
+msgid "Cinemascope"
+msgstr "CinemaScope (широкоэкранный формат)"
+
+#: admin/settings.php:247
+msgid "Square"
+msgstr "Квадрат"
+
+#: admin/settings.php:246
+msgid "Photo Camera"
+msgstr "Фотоаппарат"
+
+#: admin/settings.php:245
+msgid "Classic TV"
+msgstr "Классическое ТВ"
+
+#: admin/settings.php:244
+msgid "Monitor Screens"
+msgstr "Экраны монитора"
+
+#: admin/settings.php:243
+msgid "Wide Screen TV"
+msgstr "Широкоэкранный телевизор"
+
+#: admin/settings.php:242
+msgid "Examples"
+msgstr "Примеры"
+
+#: admin/settings.php:241 blocks/blocks.php:111 includes/functions.php:911
+msgid "In percentage. 1 to 100. Calculate player's height using the ratio value entered."
+msgstr "В процентах. от 1 до 100. Вычислите высоту проигрывателя, используя введенное значение отношения."
+
+#: admin/settings.php:238 admin/settings.php:587 blocks/blocks.php:110
+#: includes/functions.php:910 includes/functions.php:1112
+#: includes/functions.php:1295 widgets/forms/video.php:59
+msgid "Ratio"
+msgstr "Соотношение"
+
+#: admin/settings.php:232 blocks/blocks.php:109 includes/functions.php:904
+msgid "In pixels. Maximum width of the player. Leave this field empty to scale 100% of its enclosing container/html element."
+msgstr "В пикселях. Макс. ширина проигрывателя. Оставьте это поле пустым, чтобы масштабировать на 100% его объемлющий контейнер/html-элемент."
+
+#: admin/settings.php:231 admin/settings.php:580 blocks/blocks.php:108
+#: includes/functions.php:903 widgets/forms/video.php:54
+msgid "Width"
+msgstr "Ширина"
+
+#: admin/settings.php:637
+msgid "Remove data on uninstall?"
+msgstr "Удалить данные при деинсталляции?"
+
+#: admin/settings.php:180
+msgid "Page Settings"
+msgstr "Настройки страницы"
+
+#: admin/settings.php:597
+msgid "Select social share buttons displayed on the single video pages."
+msgstr "Выбрать кнопки соцсетей, отображаемые на отдельных страницах с видео."
+
+#: admin/settings.php:167
+msgid "NOTE: Just make sure that, after updating the fields in this section, you flush the rewrite rules by visiting \"Settings > Permalinks\". Otherwise you'll still see the old links."
+msgstr "ПРИМЕЧАНИЕ: Убедитесь, что после обновления полей в этом разделе вы очистили правила перезаписи, зайдя в \"Настройки > Постоянные ссылки\". В противном случае вы по-прежнему будете видеть старые ссылки."
+
+#: admin/settings.php:166
+msgid "Permalink Slugs"
+msgstr "Ярлык постоянной ссылки"
+
+#: admin/settings.php:138
+msgid "Single Video Page"
+msgstr "Страница одиночного видео"
+
+#: admin/settings.php:152
+msgid "Image Settings"
+msgstr "Настройки изображения"
+
+#: admin/settings.php:117
+msgid "Player Settings"
+msgstr "Настройки проигрывателя"
+
+#: admin/settings.php:101
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: admin/settings.php:99
+msgid "Display"
+msgstr "Отображение"
+
+#: admin/settings.php:98 blocks/blocks.php:107 includes/functions.php:842
+#: includes/functions.php:1012 includes/functions.php:1251
+#: includes/functions.php:1387
+msgid "General"
+msgstr "Основные"
+
+#: admin/admin.php:555 admin/settings.php:60
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/categories.php:157 admin/settings.php:453 admin/tags.php:114
+#: admin/videos.php:483 blocks/blocks.php:80 includes/functions.php:1326
+#: widgets/forms/categories.php:69
+msgid "ID"
+msgstr "ID"
+
+#: admin/categories.php:83
+msgid "Categories list navigation"
+msgstr "Навигация по списку категорий"
+
+#: admin/categories.php:82
+msgid "Categories list"
+msgstr "Список категорий"
+
+#: admin/categories.php:81
+msgid "No categories"
+msgstr "Нет категорий"
+
+#: admin/categories.php:80 admin/tags.php:80
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: admin/categories.php:79
+msgid "Search Categories"
+msgstr "Поиск категорий"
+
+#: admin/categories.php:78
+msgid "Popular Categories"
+msgstr "Популярные категории"
+
+#: admin/categories.php:77 admin/tags.php:77
+msgid "Choose from the most used"
+msgstr "Выбрать из наиболее используемых"
+
+#: admin/categories.php:76
+msgid "Add or remove categories"
+msgstr "Добавить или удалить категории"
+
+#: admin/categories.php:75
+msgid "Separate categories with commas"
+msgstr "Отделяйте категории запятыми"
+
+#: admin/categories.php:74
+msgid "View Category"
+msgstr "Просмотр категории"
+
+#: admin/categories.php:73
+msgid "Update Category"
+msgstr "Обновить категорию"
+
+#: admin/categories.php:72
+msgid "Edit Category"
+msgstr "Редактировать категорию"
+
+#: admin/categories.php:71
+msgid "Add New Category"
+msgstr "Добавить новую категорию"
+
+#: admin/categories.php:70
+msgid "New Category Name"
+msgstr "Новое название категории"
+
+#: admin/categories.php:69
+msgid "Parent Category:"
+msgstr "Родительская категория:"
+
+#: admin/categories.php:68
+msgid "Parent Category"
+msgstr "Родительская категория"
+
+#: admin/categories.php:67 admin/videos.php:406 public/videos.php:99
+msgid "All Categories"
+msgstr "Все категории"
+
+#: includes/functions.php:1248
+msgid "Categories"
+msgstr "Категории"
+
+#: admin/categories.php:65
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr "Категория"
+
+#: admin/categories.php:64
+msgctxt "Taxonomy General Name"
+msgid "Video Categories"
+msgstr "Категории видео"
