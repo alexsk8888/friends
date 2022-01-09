@@ -16,7 +16,8 @@ Container::make("post_meta", "two_container", "второй слайд")
         
                 ->add_fields( array(
                         Field::make( 'image', 'two_bckgr', __( ' фоновое изображение' ))->set_width( 20 ),
-                        Field::make( 'textarea', 'two_text', __( ' текст' ))->set_width( 80 ),
+                        Field::make( 'image', 'two_review_icon', __( ' иконка' ))->set_width( 40 ),
+                       Field::make( 'textarea', 'two_text', __( ' текст' ))->set_width( 40 ),
                 ) );
 
 Container::make("post_meta", "three_container", "третий слайд")
@@ -24,8 +25,7 @@ Container::make("post_meta", "three_container", "третий слайд")
                 ->add_fields( array(
                         Field::make( 'image', 'three_bckgr', __( ' Фоновое изображение' ))->set_width( 20 ),
                         Field::make( 'textarea', 'three_text_1', __( ' текст' ))->set_width( 40 ),
-                        Field::make( 'textarea', 'three_text_2', __( ' текст' ))->set_width( 40 )
-                ) );
+               ) );
 
 Container::make("post_meta", "four_container", "четвертый слайд")  
         

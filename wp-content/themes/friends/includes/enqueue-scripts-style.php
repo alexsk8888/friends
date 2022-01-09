@@ -29,7 +29,7 @@ function so_style_pages() {
 	wp_enqueue_style( 'so-reset', get_template_directory_uri() . '/assets/css/reset.css', array(), null, 'all' );
 	wp_enqueue_style( 'so-font', get_template_directory_uri() . '/assets/css/font/font.css', array(), null, 'all' );
 	wp_enqueue_style('font-awesome', get_template_directory_uri().'/assets/css/fontawesome/css/all.css');
-    wp_enqueue_style( 'so-main-page', get_template_directory_uri() . '/assets/css/main.css', array(), null, 'all' );
+    wp_enqueue_style( 'so-main', get_template_directory_uri() . '/assets/css/main.css', array(), null, 'all' );
     wp_enqueue_style( 'so-bannerify', get_template_directory_uri() . '/assets/css/mobile_content.css', array(), null, 'all' );
     wp_enqueue_script('input_mask', 'https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js',array(),null,true);
 

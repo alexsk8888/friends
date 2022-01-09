@@ -20,11 +20,16 @@ function find_index(arr, frame) {
 function next_frame(frame) {
         if(frame.classList.contains('active')){
             if(frame.nextElementSibling){
+                let next = frame.nextElementSibling;
+                let dur;
+                if(next.querySelector('.background-video')){
+                    dur = duration_video(next.querySelector('.background-video'));
+                }
                 frame.classList.remove('active');
                 frame.style.display = 'none';
-                frame.nextElementSibling.classList.add('active');
-                frame.nextElementSibling.style.display = '';
-                move(frame.nextElementSibling);
+                next.classList.add('active');
+                next.style.display = '';
+                move(next, dur);
             }
 
         }
@@ -35,14 +40,25 @@ function next_frame(frame) {
 function previous_frame(frame) {
         if(frame.classList.contains('active')){
             if(frame.previousElementSibling){
+                let previous = frame.previousElementSibling;
+                let dur;
+                if(previous.querySelector('.background-video')){
+                    dur = duration_video(previous.querySelector('.background-video'));
+                }
                 frame.classList.remove('active');
                 frame.style.display = 'none';
-                frame.previousElementSibling.classList.add('active');
-                frame.previousElementSibling.style.display = '';
-                move(frame.previousElementSibling);
-                // frame.nextElementSibling.style.transform = 'translateX(0)';
+                previous.classList.add('active');
+                previous.style.display = '';
+                move(previous, dur);
             }
         }
+}
+//--------- duration video -------------------
+function duration_video(video) {
+
+    let duration = Math.floor(10  * video.duration) ||
+                   Math.floor(10 * video.currentTime);
+   return duration; // will return the full length of the movie
 }
 
 //---------- find tab -------------------------
@@ -57,9 +73,12 @@ function find_tab(frame) {
 
 // ------------progress bar --------------------
 
-function move(frame) {
+function move(frame, duration) {
 
     remove_class_from_tab(frame);
+    let dur = 0;
+
+    duration ? dur = duration : dur = 30;
 
     let tab = find_tab(frame),
         i = 0;
@@ -68,7 +87,7 @@ function move(frame) {
         i = 1;
         let elem = tab.querySelector(".active");
         let width = 1;
-        let id = setInterval(_frame, 50);
+        let id = setInterval(_frame, dur);
         function _frame() {
             if (width >= 100) {
                 clearInterval(id);
