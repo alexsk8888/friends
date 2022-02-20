@@ -12,8 +12,9 @@ body{
   max-width: 100vw;
   width: 100vw !important;
   min-height: -webkit-fill-available;
-  overflow-x: hidden;
-  font-family: 'Montserrat';
+  max-height: calc(var(--vh, 1vh) * 100) !important;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   background-color: #FBFBFB;
   margin: 0 !important;
@@ -26,155 +27,114 @@ main, section, footer{
   margin: 0;
   font-size: 100%;
 }
-#page{
-  .container {
-    max-width: var(--width_container);
-    width: 100%;
-    margin: 0 auto;
-  }
-  a{
-    text-decoration: none;
-  }
-  h1{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 59px;
-    color: #333333;
-  }
-  h2{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 59px;
-    color: #000000;
-  }
-  h3{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
-  }
-  h4{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    color: #333333;
-  }
-  p{
-    font-family: Raleway, sans-serif;
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 30px;
-      color: #333333;
+a{
+  text-decoration: none;
+}
+h1{
+  font-family: 'Montserrat Bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FF6072;
+}
+h2{
+  font-family: 'Montserrat Bold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FF6072;
+}
+h3{
+  font-family: 'Montserrat Bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FF6072;
+}
+h4{
+  font-family: 'Montserrat Bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #FF6072;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
 
-  }
-  #site-navigation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    padding: 15px;
-  }
-  .primary-navigation ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-  .primary-navigation a {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
-    text-transform: uppercase;
-    padding: 10px;
-
-  }
-  .site-header{
-    width: 100%;
-    height: 766px;
-    margin: 0 auto;
-
-    .container{
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      background: url("../image/banner.png") no-repeat center right;
-      background-size: 50% 100%;
-
-      p{
-        width: 40%;
-        margin-left: var(--margin-left);
-      }
-      .header_left_margin{
-         margin-left: var(--margin-left);
-       }
-      h3.background_yellow{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 32px;
-        width: 635px;
-        padding-left: var(--margin-left);
-        padding-right: 20px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        text-align: right;
-      }
-      .button{
-        margin: 30px auto 30px var(--margin-left);
-      }
-    }
-  }
-
-  .background_yellow{
+}
+.background_yellow{
     background: #FFCF3C;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
   }
-  .button{
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: 300px;
+  height: 54px;
+  left: 135px;
+  top: 604px;
+  background: linear-gradient(98.61deg, #FC3B3B -55.8%, #FFCF3B 113.05%);
+  border-radius: 10px;
+  border: none !important;
+  outline: none !important;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.f_row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.f_col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#page{
+
+  .container {
+    max-width: var(--width_container);
+    width: 100%;
+    height: 100%;
+    min-height:  calc(var(--vh, 1vh) * 100) !important;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 12px 55px;
-    width: 300px;
-    height: 54px;
-    left: 135px;
-    top: 604px;
-    background: linear-gradient(98.61deg, #FC3B3B -55.8%, #FFCF3B 113.05%);
-    border-radius: 10px;
-    border: none !important;
-    outline: none !important;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    justify-content: center;
+    h4{
+      color: black;
+    }
   }
-  .f_row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+}
+
+
   //first_block
-  .first_block{
+.first_block{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -183,7 +143,7 @@ main, section, footer{
     margin: 50px auto 0;
 
     .item{
-      width: calc(100% / 3);
+      //width: calc(100% / 3);
       height: 250px;
       background: #FFFFFF;
       box-shadow: 0px 12px 30px -10px rgba(0, 0, 0, 0.2);
@@ -195,12 +155,8 @@ main, section, footer{
       padding: 30px;
 
       h2{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 144px;
+        font-size: 100px;
         line-height: 100px;
-        text-align: center;
         color: #FFCF3C;
         margin-bottom: 12px;
       }
@@ -208,143 +164,37 @@ main, section, footer{
         margin: 15px auto;
       }
       hr{
-        height: 8px;
+        height: 4px;
         width: 60%;
         background: #FFCF3C;
-        border: 4px solid #FFCF3C;
+        border: 2px solid #FFCF3C;
         border-radius: 10%;
       }
     }
   }
 
-
-  // advice
-  #advice{
-    margin: 30px auto;
-
-    .advice_content{
-        .advice_item{
-           width: 50%;
-           padding: 20px;
-           display: flex;
-           flex-direction: row;
-           flex-wrap: nowrap;
-
-          .advice_icon{
-            width: 212px;
-            height: 212px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            margin: 15px;
-          }
-          .description{
-            flex-grow: 1;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            margin: 15px;
-
-          }
-
-        }
-    }
-
-  }
-
-
-}
 @media (max-width: 1400px) {
    :root{
      --margin-left: 100px;
    }
-  #page{
-    .site-header{
-      height: 700px;
-      .container{
-        h1{
-          font-size: 40px;
-          line-height: 50px;
-        }
-        h3.background_yellow{
-         width: 600px;
-        }
-      }
-    }
-  }
+
 }
 @media (max-width: 1200px) {
   :root{
     --margin-left: 70px;
-  }
-  #page {
-    .site-header {
-      height: 650px;
-      .container{
-        h3.background_yellow{
-          width: 550px;
-        }
-      }
-    }
   }
 }
 @media (max-width: 1050px) {
   :root{
     --margin-left: 50px;
   }
-  #page {
-    .site-header {
-      height: 600px;
-      .container{
-
-        h1 {
-            font-size: 36px;
-            line-height: 40px;
-        }
-        h3.background_yellow{
-          width: 450px;
-          font-size: 20px;
-          line-height: 20px;
-          padding-left: 0;
-        }
-        p{
-          line-height: 22px;
-        }
-      }
-    }
-  }
 }
 @media (max-width: 900px) {
-  #page{
-    .site-header{
-      height: 550px;
-      .container{
-        h1 {
-          font-size: 34px;
-          line-height: 40px;
-        }
-      }
-    }
 
-  }
 }
 @media (max-width: 770px) {
   :root{
     --margin-left: 30px;
-  }
-  #page{
-    .site-header{
-      height: 500px;
-      .container{
-        h1 {
-          font-size: 30px;
-          line-height: 36px;
-        }
-      }
-    }
-
   }
 }
 

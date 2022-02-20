@@ -9,7 +9,6 @@ global $display_pc;
 global $display_mob;
  ?>
  <main id="primary" class="site-main container">
-    
     <div class="first_block">
         <div class="item">
         <h2>Sorry!</h2>
@@ -18,9 +17,6 @@ global $display_mob;
         </div>
 
     </div>
-    
-
-
  </main>
 <?php
 get_footer();

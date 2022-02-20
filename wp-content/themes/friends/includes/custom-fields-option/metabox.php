@@ -16,7 +16,8 @@ Container::make("post_meta", "two_container", "второй слайд")
         
                 ->add_fields( array(
                         Field::make( 'image', 'two_bckgr', __( ' фоновое изображение' ))->set_width( 20 ),
-                        Field::make( 'textarea', 'two_text', __( ' текст' ))->set_width( 80 ),
+                        Field::make( 'image', 'two_review_icon', __( ' иконка' ))->set_width( 40 ),
+                       Field::make( 'textarea', 'two_text', __( ' текст' ))->set_width( 40 ),
                 ) );
 
 Container::make("post_meta", "three_container", "третий слайд")
@@ -24,8 +25,7 @@ Container::make("post_meta", "three_container", "третий слайд")
                 ->add_fields( array(
                         Field::make( 'image', 'three_bckgr', __( ' Фоновое изображение' ))->set_width( 20 ),
                         Field::make( 'textarea', 'three_text_1', __( ' текст' ))->set_width( 40 ),
-                        Field::make( 'textarea', 'three_text_2', __( ' текст' ))->set_width( 40 )
-                ) );
+               ) );
 
 Container::make("post_meta", "four_container", "четвертый слайд")  
         
@@ -51,7 +51,7 @@ Container::make("post_meta", "six_container", "шестой слайд 'тари
                         ->add_fields( array(
                                 Field::make( 'image', 'smile', __( ' смайлик' ))->set_width( 20 ),
                                 Field::make( 'text', 'alt', __( ' "Alt" смайлика' ))->set_width( 20 ),
-                                Field::make( 'textarea', 'description', __( ' Описание' ))->set_width(60 )
+                                Field::make( 'rich_text', 'description', __( ' Описание' ))->set_width(60 )
                         ) ),
                         Field::make( 'text', 'six_comment', __( ' комментарий' ))->set_width( 100 ),
                 ) );
@@ -99,5 +99,6 @@ Container::make("post_meta", "eleven_container", "одинадцатый сла�
            
                 ->add_fields( array(       
                         Field::make( 'text', 'feedback_title', __( ' заголовок' )),
-                        Field::make( 'textarea', 'feedback_last_comment', __( ' коментарий под формой' ))->set_width( 50 ),        
+                        Field::make( 'text', 'feedback_offer', __( ' Преложение' )),
+                        Field::make( 'textarea', 'feedback_last_comment', __( ' коментарий под формой' ))->set_width( 50 ),
                 ) );
